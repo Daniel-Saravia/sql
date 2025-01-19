@@ -83,3 +83,4 @@ FROM FACT_SALES fs
 JOIN DIM_DATE dd ON fs.DateKey = dd.DateKey
 GROUP BY dd.[Year];
 
+
