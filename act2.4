@@ -95,3 +95,13 @@ WHERE dp.CategoryName = 'Footwear'
   AND ds.RegionName = 'Chicagoland'
   AND dd.Quarter = 'Q1'
   AND DATENAME(WEEKDAY, dd.FullDate) = 'Wednesday';
+
+-- Query: Quantities of sold products on Tuesday in category Camping provided by vendor Pacific Gear in either region
+SELECT fs.Quantity, dp.ProductName, ds.StoreName, dd.FullDate
+FROM FACT_SALES fs
+JOIN DIM_PRODUCT dp ON fs.ProductKey = dp.ProductKey
+JOIN DIM_STORE ds ON fs.StoreKey = ds.StoreKey
+JOIN DIM_DATE dd ON fs.DateKey = dd.DateKey
+WHERE dp.CategoryName = 'Camping'
+  AND dp.VendorName = 'Pacific Gear'
+  AND DATENAME(WEEKDAY, dd.FullDate) = 'Tuesday';
