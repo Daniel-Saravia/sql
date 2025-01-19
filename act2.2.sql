@@ -44,14 +44,13 @@ FROM DIM_STORE ds
 WHERE ds.OriginalStoreID = 'S1'; -- Replace with a known Store ID
 
 -- Validate FACT_SALES data
-SELECT fs.Quantity, fs.SalesAmount, dp.ProductName, dc.CustomerName, ds.StoreName, dd.FullDate
+SELECT TOP 10 fs.Quantity, fs.SalesAmount, dp.ProductName, dc.CustomerName, ds.StoreName, dd.FullDate
 FROM FACT_SALES fs
 JOIN DIM_PRODUCT dp ON fs.ProductKey = dp.ProductKey
 JOIN DIM_CUSTOMER dc ON fs.CustomerKey = dc.CustomerKey
 JOIN DIM_STORE ds ON fs.StoreKey = ds.StoreKey
 JOIN DIM_DATE dd ON fs.DateKey = dd.DateKey
-WHERE fs.Quantity > 0 -- Filter as needed for testing
-LIMIT 10; -- Show sample rows
+WHERE fs.Quantity > 0; -- Filter as needed for testing
 
 -- Validate Against Known Sample Data
 SELECT fs.Quantity, fs.SalesAmount, dp.ProductName, dc.CustomerName, ds.StoreName, dd.FullDate
@@ -83,3 +82,4 @@ SELECT dd.[Year], SUM(fs.SalesAmount) AS TotalSales
 FROM FACT_SALES fs
 JOIN DIM_DATE dd ON fs.DateKey = dd.DateKey
 GROUP BY dd.[Year];
+
