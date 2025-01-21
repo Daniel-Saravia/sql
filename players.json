@@ -1,0 +1,34 @@
+[
+    {
+        "_id": {
+            "$oid": "65b0258ed7a44cd84e0c0a79"
+        },
+        "Player Name": "Jordan Phoenix",
+        "Points Scored": "201",
+        "Games Played": 18
+    },
+    {
+        "_id": {
+            "$oid": "65b0258ed7a44cd84e0c0a7a"
+        },
+        "Player Name": "Taylor Houston",
+        "Points Scored": "159",
+        "Games Played": 14
+    },
+    {
+        "_id": {
+            "$oid": "65b0258ed7a44cd84e0c0a7b"
+        },
+        "Player Name": "Cameron Dallas",
+        "Points Scored": "190",
+        "Games Played": 16
+    },
+    {
+        "_id": {
+            "$oid": "65b0258ed7a44cd84e0c0a7c"
+        },
+        "Player Name": "Alex Chicago",
+        "Points Scored": "173",
+        "Games Played": 17
+    }
+]
