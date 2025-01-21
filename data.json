@@ -1,0 +1,32 @@
+[
+    {
+        "studentID": 8752,
+        "firstName": "John",
+        "lastName": "Smith",
+        "age": "21",
+        "address": "35th Ave & Camelback",
+        "city": "Phoenix",
+        "state": "Arizona",
+        "driversLic": "AZ123456789"
+    },
+    {
+        "studentID": 8753,
+        "firstName": "Sponge",
+        "lastName": "Bob",
+        "age": "31",
+        "address": "14 South",
+        "city": "Flagstaff",
+        "state": "Arizona",
+        "driversLic": "No DL"
+    },
+    {
+        "studentID": 8754,
+        "firstName": "John",
+        "lastName": "Wayne",
+        "age": "25",
+        "address": "45th Ave & Camelback",
+        "city": "Phoenix",
+        "state": "Arizona",
+        "driversLic": "AZ568"
+    }
+]
