@@ -1,0 +1,23 @@
+[
+    {
+        "firstname": "Emily",
+        "lastname": "Clark",
+        "address": "123 Elm Street, Springfield",
+        "major": "Computer Science",
+        "yearInSchool": "Sophomore"
+    },
+    {
+        "firstname": "Michael",
+        "lastname": "Smith",
+        "address": "456 Oak Avenue, Denver",
+        "major": "Mechanical Engineering",
+        "yearInSchool": "Junior"
+    },
+    {
+        "firstname": "Sophia",
+        "lastname": "Johnson",
+        "address": "789 Pine Road, Austin",
+        "major": "Biology",
+        "yearInSchool": "Freshman"
+    }
+]
