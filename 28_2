@@ -1,0 +1,36 @@
+# MongoDB Queries for `transactions` Collection
+
+## 1. Display the Top 50 Documents in the `transactions` Collection
+```javascript
+db.transactions.find({}).limit(50);
+```
+
+This retrieves the first **50 documents** from the `transactions` collection.
+
+---
+
+## 2. Show Only the `buy` Transactions
+```javascript
+db.transactions.find(
+  { "transactions.type": "buy" } 
+).limit(50);
+```
+
+- This filters transactions where the `"type"` field inside the `transactions` array is `"buy"`.
+- The `limit(50)` keeps the result manageable.
+
+---
+
+## 3. Order the Transactions by Symbol
+```javascript
+db.transactions.find(
+  { "transactions.type": "buy" } 
+).sort({ "transactions.symbol": 1 }).limit(50);
+```
+
+- This **filters for "buy" transactions**.
+- The `.sort({ "transactions.symbol": 1 })` orders the results **alphabetically by `symbol`** (ascending).
+- The `.limit(50)` ensures we only get the top **50** results.
+```
+
+These queries can be used inside **MongoDB Compass's filter box** or directly in a MongoDB shell. 🚀
