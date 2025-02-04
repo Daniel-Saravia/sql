@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<root>
+    <customers>
+        <customer CustomerName="Captain America" CustomerID="C001">
+            <orders>
+                <Order OrderDate="2012-07-04T00:00:00" OrderID="10248">
+                    <OrderDetail Quantity="5" ProductID="16"/>
+                    <OrderDetail Quantity="12" ProductID="11"/>
+                    <OrderDetail Quantity="10" ProductID="42"/>
+                </Order>
+            </orders>
+            <Address>Address line 1, 2, 3</Address>
+        </customer>
+
+        <customer CustomerName="Wonder Woman" CustomerID="C002">
+            <orders>
+                <Order OrderDate="2011-07-04T00:00:00" OrderID="10245">
+                    <OrderDetail Quantity="12" ProductID="11"/>
+                    <OrderDetail Quantity="16" ProductID="42"/>
+                </Order>
+            </orders>
+            <Address>Address line 5, 6, 7</Address>
+        </customer>
+
+        <customer CustomerName="Iron Man" CustomerID="C003">
+            <orders>
+                <Order OrderDate="2012-08-16T00:00:00" OrderID="10283">
+                    <OrderDetail Quantity="3" ProductID="72"/>
+                </Order>
+            </orders>
+            <Address>Address line 1, 4, 5</Address>
+        </customer>
+    </customers>
+</root>
