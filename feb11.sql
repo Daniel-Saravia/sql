@@ -20,3 +20,7 @@ SELECT
     JSON_QUERY(@json, '$.info.tags') as tags
 SELECT value
 FROM OPENJSON(@json, '$.info.tags')
+
+SELECT object_id, name
+FROM sys.tables
+FOR JSON PATH
