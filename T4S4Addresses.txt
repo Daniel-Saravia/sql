@@ -1,0 +1,48 @@
+ID:	06
+Street:  4186 Diamond Cove
+City:  Newport
+State/province/area:   Rhode Island
+Phone number  401-341-3121
+Zip code  02840
+Country calling code  +1
+Country  United States
+ID:	05
+Street:  1736 Mandan Road
+City:  Saint Louis
+State/province/area:   Missouri
+Phone number  573-844-2793
+Zip code  63101
+Country calling code  +1
+Country  United States
+ID:	04
+Street:  3265 Hall Street
+City:  Las Vegas
+State/province/area:   Nevada
+Phone number  702-453-5129
+Zip code  89110
+Country calling code  +1
+Country  United States
+ID:	03
+Street:  3544 Vesta Drive
+City:  Northbrook
+State/province/area:   Illinois
+Phone number  773-781-7760
+Zip code  60062
+Country calling code  +1
+Country  United States
+ID:	02
+Street:  4126 Apple Lane
+City:  Norman
+State/province/area:   Oklahoma
+Phone number  309-342-6871
+Zip code  73072
+Country calling code  +1
+Country  United States
+ID:	01
+Street:  2612 Johnny Lane
+City:  New Berlin
+State/province/area:   Wisconsin
+Phone number  414-232-5019
+Zip code  53151
+Country calling code  +1
+Country  United States
