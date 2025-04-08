@@ -1,0 +1,30 @@
+--Create these tables in the ACIDTest database.
+--Create the Product Table
+CREATE TABLE Product
+(
+  ProductID INT PRIMARY KEY,
+  Name VARCHAR(40),
+  Price MONEY,
+  Quantity INT
+)
+
+--Populate the Product Table with test data
+INSERT INTO Product VALUES(101, 'Laptop', 150.00, 100)
+INSERT INTO Product VALUES(102, 'Desktop', 200.00, 150)
+INSERT INTO Product VALUES(103, 'Mobile', 30.00, 200)
+INSERT INTO Product VALUES(104, 'Tablet', 40.00, 250)
+
+--Create the Product Sales table
+CREATE TABLE ProductSales
+(
+  ProductSalesID INT PRIMARY KEY,
+  ProductID INT,
+  QuantitySold Int
+)
+
+---Populate the Product Sales table with test data
+INSERT INTO ProductSales VALUES(1, 101, 10)
+INSERT INTO ProductSales VALUES(2, 102, 15)
+INSERT INTO ProductSales VALUES(3, 103, 30)
+INSERT INTO ProductSales VALUES(4, 104, 35)
+;
